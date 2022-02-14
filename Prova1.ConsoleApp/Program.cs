@@ -8,15 +8,14 @@ namespace Prova1.ConsoleApp
         {
             int ladoX, ladoY, ladoZ;
             string opcao;
-
-            
-            Console.WriteLine("Bem vindo(a)!\n");
+                        
+            Console.WriteLine("Bem vindo(a)!");
             do
             {
                 do
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("Digite 1 para inserir um triângulo e saber seu tipo.");
+                    Console.WriteLine("\nDigite 1 para inserir um triângulo e saber seu tipo.");
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Digite 2 para sair.");
                     Console.ResetColor();
