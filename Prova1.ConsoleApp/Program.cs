@@ -33,6 +33,7 @@ namespace Prova1.ConsoleApp
                 {
                     break;
                 }
+
                 Console.Write("\nDigite o valor do lado X: ");
                 ladoX = Convert.ToInt32(Console.ReadLine());
 
@@ -96,6 +97,7 @@ namespace Prova1.ConsoleApp
                     }
 
                 } while (opcao != "Y" && opcao != "N" && opcao != "y" && opcao != "n");
+
             } while (opcao == "Y" || opcao == "y");
 
             Console.ReadLine();
