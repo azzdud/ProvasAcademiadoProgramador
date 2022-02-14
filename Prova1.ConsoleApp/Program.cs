@@ -74,8 +74,7 @@ namespace Prova1.ConsoleApp
                 {
                     Console.WriteLine("Este é um triângulo equilátero (todos os lados são iguais).");
                 }
-                Console.ResetColor();
-
+                
                 do
                 {
 
